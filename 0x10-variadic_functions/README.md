@@ -1,0 +1,1 @@
+This my praftice on VARIADIC FUNCTIONS
