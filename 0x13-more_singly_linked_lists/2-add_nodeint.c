@@ -8,7 +8,7 @@
  *
  * Return: All addresses, if it is a new element
  */
-listint_t *add_nodeint(listint_t **head, const int p)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
   listint_t *old;
 
@@ -17,7 +17,7 @@ listint_t *add_nodeint(listint_t **head, const int p)
   if (old == NULL)
     return (NULL);
 
-  old->p = p;
+  old->n = n;
   old->next = *head;
   *head = old;
 
