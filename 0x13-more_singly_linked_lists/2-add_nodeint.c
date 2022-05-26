@@ -6,9 +6,9 @@
  * @head: head of a list or function
  * @n: n element.
  *
- * Return: address of the new element. NUll if it failed.
+ * Return: All addresses, if it is a new element
  */
-listint_t *add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int p)
 {
   listint_t *old;
 
@@ -17,7 +17,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
   if (old == NULL)
     return (NULL);
 
-  old->n = n;
+  old->p = p;
   old->next = *head;
   *head = old;
 
