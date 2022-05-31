@@ -4,17 +4,17 @@
 
 /**
 
- * get_bit - Gets the value of a bit at a given index.
+ * get_bit - returns the value of a bit at a given
 
- * @n: The bit.
+ * index.
 
- * @index: The index to get the value at - indices start at 0.
+ * @n: unsigned long int input.
+
+ * @index: index of the bit.
 
  *
 
- * Return: If an error occurs - -1.
-
- *         Otherwise - The value of bit at index.
+ * Return: value of the bit.
 
  */
 
@@ -22,18 +22,32 @@ int get_bit(unsigned long int n, unsigned int index)
   
 {
   
-  if (index >= (sizeof(unsigned long int) * 8))
-    
-    return (-1);
+  unsigned int i;
   
 
   
-  if ((n & (1 << index)) == 0)
+  if (n == 0 && index < 64)
     
     return (0);
   
 
   
-  return (1);
+  for (i = 0; i <= 63; n >>= 1, i++)
+    
+    {
+      
+      if (index == i)
+	
+	{
+	  
+	  return (n & 1);
+	  
+	}
+      
+    }
+  
+
+  
+  return (-1);
   
 }
