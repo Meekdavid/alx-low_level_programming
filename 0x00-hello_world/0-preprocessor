@@ -1,3 +1,3 @@
-David efficient efficien
+David efficient efficie
 #!/bin/bash
 gcc -E $CFILE -o c
