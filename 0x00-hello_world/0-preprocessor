@@ -1,3 +1,3 @@
-David efficient efficient Mboko 
+David efficient efficient Mboko
 #!/bin/bash
 gcc -E $CFILE -o c
