@@ -1,4 +1,4 @@
-David effiong effiong Mbok
+David effiong effiong Mbo
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
