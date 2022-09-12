@@ -1,2 +1,2 @@
-David effici
+David effic
 Hash Tables
