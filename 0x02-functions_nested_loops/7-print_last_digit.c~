@@ -1,0 +1,10 @@
+#include "holberton.h"
+
+/**
+* _abs - computes the absolute value
+* @i: the value to be checked
+* Return: absolute value
+*/
+int print_last_digit(int);
+{
+  
