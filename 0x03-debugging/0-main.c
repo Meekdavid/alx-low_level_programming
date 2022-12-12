@@ -1,4 +1,4 @@
-Efficiently everyt
+Efficiently every
 #include "main.h"
 
 /**
