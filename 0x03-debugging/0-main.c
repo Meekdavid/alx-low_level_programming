@@ -1,4 +1,4 @@
-Efficiently 
+Efficiently
 #include "main.h"
 
 /**
