@@ -1,4 +1,4 @@
-Efficiently everythin
+Efficiently everythi
 #include "main.h"
 
 /**
