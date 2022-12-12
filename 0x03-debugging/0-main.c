@@ -1,4 +1,4 @@
-Effici
+Effic
 #include "main.h"
 
 /**
