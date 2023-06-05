@@ -1,5 +1,5 @@
 #include "main.h"
-effi
+eff
 /**
  * read_textfile - reads a text file and prints the letters
  * @filename: filename.
